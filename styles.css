@@ -1,0 +1,224 @@
+* {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/*
+.wraper{
+    margin: auto;
+    max-width: 960px;
+    
+    
+}*/
+
+.cabecera{
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: rgb(245, 253, 255);
+    
+}
+
+.container-img-buil img{
+    width: 60%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.button-free{
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 2em;
+    box-shadow: 0px 2px 4px #0000003f;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    padding: 10px 3em;
+    cursor: pointer;
+}
+
+.detalles{
+        display: grid;
+    grid-template-rows: repeat(3,30%);
+    margin: 90px 80px;
+
+}
+
+.section-one, .section-two, .section-three, .section-four {
+    height: 50vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.div-s2, .div-s3, .div-s4{
+    padding: 20px 10% 20px 10%;
+}
+
+
+.section-two, .section-three, .section-four{
+    
+    box-shadow: 1px 1px 6px #00004f;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.title{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.text-normal{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align:justify;
+}
+
+.section-one-btn{
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button-pink{
+
+    background-color: rgb(255, 85, 204);
+    border: none;
+    border-radius: 2em;
+    box-shadow: 0px 2px 4px #0000003f;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    padding: 10px 3em;
+    color: white;
+    cursor: pointer;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.container-img{
+    width: 50%;
+}
+
+
+.container-img img{
+    width: 60%;
+}
+
+
+.container-letters{
+    text-align:  start;
+    width: 50%;
+    
+}
+
+.div-s5{    
+    margin-top: 100px;
+    display: block;
+    position: relative;
+}
+
+.floatbox{
+    position: absolute;
+    background: #fff;
+    color: black;
+    padding: 30px 50px 30px 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 5px 1px #ccc;
+    font-family: 'Open Sans', sans-serif;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35%;
+}
+
+.pie{
+    align-items: center;
+    background-color: black;
+
+}
+
+.pie-1{
+    height: 20vh;
+}
+
+.pie-2{
+    height: 20vh;
+}
+
+.pie-3{
+    height: 20vh;
+   
+}
+
+.floatbox button{
+    padding: 20px 45px 20px 45px;
+    border-radius: 50px;
+    margin-top: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+    box-shadow: 0 3px 15px 4px #d3d3d3;
+    cursor: pointer;
+}
+
+.pie{
+    background: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 150px 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pie-logo{
+    width: 15%;
+    filter: sepia(50) brightness(50);
+    margin-top: 50px;
+}
+
+.pie-texto{
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-template-rows: repeat(3,auto);
+    margin-top: 30px;
+}
+
+.icon-locacion{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    font-size: 17px;
+}
+
+.pie-redes{
+    display: flex;
+}
+
+.pie-redes a{
+    margin-left: 20px;
+}
+
+.pie a{
+    margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.pie-copy{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+    margin-top: 0%;
+}
